@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-ai-demo
+  main:
+    web-application-type: none
+  ai:
+    gemini:
+      base-url: https://generativelanguage.googleapis.com/v1beta/openai
+      completions-path: /chat/completions
+    chat:
+      options:
+        model: gemini-2.5-flash
